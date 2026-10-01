@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.nav-links li {
+  list-style: none;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+.btn-grp {
+  gap: 10px;
+}
+.btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.btn1 {
+  background-color: white;
+}
+
+.btn2 {
+  background-color: #007bff;
+  color: white;
+}
+.logo {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.active {
+  color: blue;
+}
+
+/*Hero section */
+
+.hero-section{
+    margin-top: 70px;
+}
+.hero {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+}
+.h-left{
+    flex: 1.4;
+    gap:15px
+}
+.h-right{
+    margin-top: 20px;
+    flex: 1;
+}
+.h-left>h1{
+    font-size: 72px;
+    font-weight:600;
+    line-height: 1.2;
+    letter-spacing: -2px;
+}
+.para{
+    margin-top: 25px;
+    letter-spacing: 1px;
+    font-size: large;
+}
+.first-p{
+    margin-bottom: 15px;
+    color: gray;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 14px;
+}
