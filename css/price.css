@@ -1,0 +1,82 @@
+.pricing {
+  margin-top: 120px;
+  padding: 20px;
+}
+.price-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.para-2 {
+  margin-top: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 15px;
+  padding: 20px;
+}
+.card {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #ffffff;
+  height: 380px;
+}
+
+.btn-price {
+  margin-top: 20px;
+}
+.card:hover {
+  transform: translateY(-15px);
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+.card > p {
+  background-color: blue;
+  color: white;
+}
+.popular {
+  display: flex;
+  justify-content: end;
+}
+.popular p {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-size: x-small;
+  font-weight: bold;
+}
+.subscription-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.amount {
+  font-size: 55px;
+  font-weight: 600;
+}
+.subscription-amount {
+  margin-top: 10px;
+}
+.subscription-details {
+  margin-top: 17px;
+}
+.btn-price {
+  margin-top: 45px;
+  width: 100%;
+}
+.symbol {
+  font-size: xx-large;
+  right: 8px;
+  font-weight: 600;
+  position: relative;
+  bottom: 16px;
+}

@@ -1,0 +1,58 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+.about p {
+  margin-top: 20px;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+}
+.about-img {
+  margin-top: 70px;
+}
+.about-img img {
+  width: 65%;
+}
+.mission {
+  margin-top: 60px;
+  padding: 20px;
+}
+.mission p {
+  margin-bottom: 50px;
+}
+.about-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.a-right img {
+  width: 380px;
+  height: auto;
+  margin-bottom: 25px;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  padding: 20px;
+}
+.photo-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  margin-top: 50px;
+  gap: 80px;
+  padding: 30px;
+}
+.i {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
