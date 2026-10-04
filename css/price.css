@@ -80,3 +80,170 @@
   position: relative;
   bottom: 16px;
 }
+
+/* Compare features */
+.compare-feature {
+  margin-top: 70px;
+  padding: 30px;
+}
+.compare-feature h3 {
+  font-size: xx-large;
+}
+
+.grid-section {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+}
+.grid-section h3 {
+  font-size: 28px;
+}
+.divider-2 {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(200, 191, 191);
+  margin: 20px 0;
+}
+.special {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.special-feature {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.icon-section {
+  background-color: #0a7af1;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+}
+.icon-section img {
+  width: 14px;
+  height: 14px;
+}
+
+/* FAQ section */
+.faq-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.faq-section h3 {
+  font-size: 40px;
+}
+.qa-section {
+  display: flex;
+  justify-content: space-between;
+}
+.faqs {
+  margin-top: 50px;
+  width: 500px;
+  padding: 20px;
+}
+.faqs p {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .pricing {
+    margin-top: 60px;
+    padding: 10px;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .card {
+    height: auto;
+    max-width: 100%;
+  }
+  .compare-feature {
+    margin-top: 50px;
+    padding: 15px;
+  }
+  .grid-section {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+  }
+  .grid-section h3 {
+    font-size: 24px;
+  }
+  .faq-section {
+    margin-top: 50px;
+  }
+  .faqs {
+    width: 100%;
+    max-width: 550px;
+    padding: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .price-heading h3 {
+    font-size: 32px;
+  }
+  .card-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 10px;
+  }
+  .card {
+    padding: 25px 20px;
+    height: auto;
+  }
+  .btn-price {
+    font-size: 15px;
+  }
+  .compare-feature h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .grid-section {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding: 10px;
+  }
+  .faq-section h3 {
+    font-size: 28px;
+  }
+  .faqs {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card {
+    padding: 20px 15px;
+  }
+  .amount {
+    font-size: 42px;
+  }
+  .symbol {
+    font-size: 22px;
+  }
+  .btn-price {
+    font-size: 13px;
+    padding: 12px 15px;
+  }
+  .faq-section h3 {
+    font-size: 24px;
+  }
+  .faqs p {
+    font-size: 14px;
+  }
+}

@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lando</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+    />
   </head>
   <body>
-    <!--Navbar-section-->
+    <!--navsection-->
     <header>
       <nav class="container nav-section">
         <!--logo-->
         <div class="nav-left">
-          <a class="logo" href="#">Lando</a>
+          <a class="logo" href="./index.html">Lando</a>
+          <!--nav-links-->
           <ul class="nav-links">
             <li><a href="./index.html" class="active">Home</a></li>
             <li><a href="./pages/pricing.html">Pricing</a></li>
@@ -20,7 +25,7 @@
             <li><a href="./pages/contact.html">Contact</a></li>
           </ul>
         </div>
-        <!--nav-links-->
+        <button class="harm-burger"><i class="fa-solid fa-bars"></i></button>
         <!--buttons-->
         <div class="btn-grp">
           <button class="btn btn1">Log in</button>
@@ -34,11 +39,7 @@
         <div class="container hero">
           <div class="h-left">
             <p class="first-p">- FREE 30 DAYS TRIAL</p>
-            <h1>
-              The best way <br />
-              to showcase<br />
-              your project.
-            </h1>
+            <h1>The best way to showcase your project.</h1>
             <p class="para">
               Here you can put a short description about your project.
             </p>
@@ -61,7 +62,7 @@
         <div class="container">
           <div class="partner-section">
             <div>
-              <p>
+              <p class="partner-p">
                 Trusted by individuals and teams at the world's<br />
                 best companies
               </p>
@@ -162,6 +163,7 @@
           <div class="community">
             <div class="c-content after">
               <img
+                class="community-img"
                 src="./assets/images/community.png"
                 alt="community-img"
                 loading="lazy"
@@ -247,7 +249,7 @@
             </h3>
             <p>Start optimizing your processes today.</p>
             <div class="signup-link-btn">
-              <a class="btn btn2">Sign up now</a>
+              <a class="btn btn2 a-btn">Sign up now</a>
             </div>
           </div>
           <div class="right">
@@ -285,5 +287,6 @@
         </footer>
       </section>
     </main>
+    <script src="./script/script.js"></script>
   </body>
 </html>
