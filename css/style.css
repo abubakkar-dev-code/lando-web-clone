@@ -69,6 +69,9 @@ a {
 .harm-burger {
   display: none;
 }
+.nav-links li a:hover {
+  color: blue;
+}
 /*Hero section */
 
 .section {
@@ -194,12 +197,12 @@ a {
   margin-top: 40px;
 }
 .btn {
-  transition: all 0.2s ease;
+  transition: translateY 0.15s ease;
   cursor: pointer;
 }
 
 .btn:active {
-  transform: scale(0.95);
+  transform: translateY(2px);
 }
 
 /*Features*/
@@ -253,11 +256,21 @@ h3 {
   flex: 1;
 }
 .signup-link-btn {
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   cursor: pointer;
 }
+
 .signup-link-btn:active {
-  transform: scale(0.95);
+  transform: translateY(2px);
+}
+
+.btn2:hover {
+  background-color: #0056b3;
+}
+.btn3:hover {
+  background-color: #007bff;
+  color: #ffffff;
+  border-color: #007bff;
 }
 
 /* community-section*/
