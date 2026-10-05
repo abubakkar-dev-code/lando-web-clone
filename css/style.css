@@ -414,6 +414,9 @@ hr {
   font-weight: 600;
   margin-bottom: 10px;
 }
+.footer-section a:hover{
+  color: blue;
+}
 
 @media (max-width: 768px) {
   .harm-burger {
