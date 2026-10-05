@@ -414,7 +414,7 @@ hr {
   font-weight: 600;
   margin-bottom: 10px;
 }
-.footer-section a:hover{
+.footer-section a:hover {
   color: blue;
 }
 
@@ -450,7 +450,6 @@ hr {
   }
   .nav-links.active {
     display: flex;
-    animation: fadeInNav 0.25s ease forwards;
   }
   .nav-links li {
     list-style: none;
