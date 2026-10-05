@@ -156,6 +156,9 @@
 .faqs p {
   font-weight: 600;
 }
+.dropdown{
+  font-size: small;
+}
 
 @media (max-width: 768px) {
   .pricing {
